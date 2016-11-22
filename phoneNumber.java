@@ -23,6 +23,8 @@ class phoneNumber{
 
  public ArrayList<String> letterCombinations(String digits) {
      char[] c = digits.toCharArray();
+   if(digits == null || digits.length() == 0){
+            return al;
     
      ArrayList<String> al=new ArrayList<String>();
      HashMap<Character,char[]> hm = new HashMap<Character,char[]>();
