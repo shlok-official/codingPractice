@@ -23,10 +23,10 @@ class phoneNumber{
 
  public ArrayList<String> letterCombinations(String digits) {
      char[] c = digits.toCharArray();
-   if(digits == null || digits.length() == 0){
-            return al;
     
      ArrayList<String> al=new ArrayList<String>();
+      if(digits == null || digits.length() == 0){
+            return al;
      HashMap<Character,char[]> hm = new HashMap<Character,char[]>();
      hm.put('1',new char[]{});
      hm.put('2',new char[]{ 'a', 'b', 'c' });
