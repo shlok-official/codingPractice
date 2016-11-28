@@ -8,7 +8,7 @@ class isPalin{
         if(str.charAt(0)==str.charAt(i-1)){
         return palinOrNot(str.substring(1,i-2));
         //System.out.print("True") ;
-         
+            
         }
 
         
